@@ -24,13 +24,17 @@ https://towardsdatascience.com/tonenet-a-musical-style-transfer-c0a18903c910
 https://github.com/sumuzhao/CycleGAN-Music-Style-Transfer
 https://lib.ugent.be/fulltxt/RUG01/002/785/848/RUG01-002785848_2019_0001_AC.pdf
 Method
-http://www2.ece.rochester.edu/~zduan/teaching/ece477/projects/2018/ZhixianHuang_Shaoti
-anChen_BingjingZhu_ReportFinal.pdf
+http://www2.ece.rochester.edu/~zduan/teaching/ece477/projects/2018/ZhixianHuang_ShaotianChen_BingjingZhu_ReportFinal.pdf
 https://openai.com/blog/jukebox/
+
+
 Data set:
+
 https://www.kaggle.com/search?q=music+datasetSize%3Alarge
+
 Convolutional Neural Networks from coursera:
 https://www.coursera.org/learn/convolutional-neural-networks/
+
 Tensorflow data and deployment from coursera:
 https://www.coursera.org/specializations/tensorflow-data-and-deployment
 2
@@ -71,7 +75,7 @@ Developers are expected to contribute a consistent amount of time per week altho
 exceptions can be made in advance.
 Basic experience with programming in python is required, while precious experience with
 machine learning models and frameworks is preferred. Experience with other facets of data
-science such as data manipulation are welcome. Team members are expected to contribute 
+science such as data manipulation are welcome. Team members are expected to contribute
 3
 3-4 hours per week and 6 developers, including we would be required for this project. The
 number of hours and team members required are subject to change based on the
