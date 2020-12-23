@@ -1,0 +1,81 @@
+Musical Neural Style Transfer with CNNs
+By Thuhin Nandakumar ECE, Pranjal Kumar Bajaria CS, Shuvam Das CS
+1 Abstract
+Music as an artform is complex and nuanced, every music piece has its own character and
+unique style. With a limited range of original pieces available from any musician, the task of
+creating new and interesting, novel music (think classical beethoven styled rap) falls to
+Generative Neural Networks. The same networks have potential to be used with transfer
+learning and can be applied to a multitude of artistic domains for fresh perspectives.
+The aim of this project is to create an algorithm that can transfer the style of a piece of music
+and apply it to the content of another. The algorithm one main metrics for measurement,
+namely how faithfully the algorithm can replicate the style of a piece. A preliminary loss
+function for the algorithm is given in this link. Where the style loss is given by the frobenius
+norm of the difference between the gram matrices of the same style audio and generated
+audio. Additionally, an initial potential neural network architecture is given below, along with
+similar open source implementations [see list of resources] that may be used for transfer
+learning.
+This project offers developers a chance to develop their Deep learning acumen, particularly
+with hyper parameter tuning and the tensorflow and keras frameworks.Developers will also
+be exposed to architecture design and potentially learn transfer learning and other training
+optimization methods such as regularization.
+2 List of Resources
+https://software.intel.com/content/www/us/en/develop/articles/neural-style-transfer-on-audiosignals.html
+https://towardsdatascience.com/tonenet-a-musical-style-transfer-c0a18903c910
+https://github.com/sumuzhao/CycleGAN-Music-Style-Transfer
+https://lib.ugent.be/fulltxt/RUG01/002/785/848/RUG01-002785848_2019_0001_AC.pdf
+Method
+http://www2.ece.rochester.edu/~zduan/teaching/ece477/projects/2018/ZhixianHuang_Shaoti
+anChen_BingjingZhu_ReportFinal.pdf
+https://openai.com/blog/jukebox/
+Data set:
+https://www.kaggle.com/search?q=music+datasetSize%3Alarge
+Convolutional Neural Networks from coursera:
+https://www.coursera.org/learn/convolutional-neural-networks/
+Tensorflow data and deployment from coursera:
+https://www.coursera.org/specializations/tensorflow-data-and-deployment
+2
+3 Plan
+One-month training for everyone including us and exempt to people who have prerequisites.
+After that we involve in the starting of the project with the getting of data and then have the
+data which we already have in the proposal plus from UTMist. The data is referenced in the
+list of resources
+In the project we have a defined way through the paper and can replicate the method and
+have an output displayed as done in the methodology. We can also change the algorithms in
+the input to suit the preference and the decisions by the machine. This should take about 2
+month or 2.5 months to complete even more considering University pressure including
+midterms, assignments and final exams.
+We will also write a report on the reproduced data.
+Through this project students learn not only CNN, GAN but tensor flow keras workflow and
+be basic to intermediate developers in AI. They would also get exposure to different
+algorithms and the way to be involved in a big project which have a progressional jump from
+learning to application
+4 Summary of specific goals
+The project is open to all who are motivated to learn AI and deep learning in the future and
+want to be involved in big projects. We will try to finish the learning for each member by the
+first month of the beginning of the project and students would only require 5 to 6 hours a
+week of learning from coursera.
+As we have the data and method already, we approximate the duration of the project will
+take from about 2 to 3 months to finish.
+We would also like to do a report and submit to UTMist
+Some basic algorithms we can apply to see different results
+• Do different types of music and compare the method formed
+• To test we are going to use different types of the input data such as extreme heavy
+metal and peaceful songs and some lyrical and song similarities
+• We will only use one model as indicated in the method from references
+Each member would be required to learn CNN or have it as a prerequisite
+We may provide a report for our findings.
+5 Expectations for Teammates & Advising
+Team members are expected to show interest, and dedication to the project. Flexibility and
+willingness to adapt and learn new skills over the course of the project is prefered.
+Developers are expected to contribute a consistent amount of time per week although
+exceptions can be made in advance.
+Basic experience with programming in python is required, while precious experience with
+machine learning models and frameworks is preferred. Experience with other facets of data
+science such as data manipulation are welcome. Team members are expected to contribute 
+3
+3-4 hours per week and 6 developers, including we would be required for this project. The
+number of hours and team members required are subject to change based on the
+complexity/accuracy required from the model.
+The crux of this paper relies heavily on adapting pre-existing literature, and potentially
+transfer learning using pre-existing style transfer algorithms to apply to audio and music
+generation. Therefore, advice on this from the UTMist team would be very much appreciated.
