@@ -127,3 +127,12 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# Pycharm specifics
+.idea/
+
+# Flask
+instance/*
+
+# hack so we can commit the empty instance folder
+!instance/uploads/.gitkeep
