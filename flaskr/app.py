@@ -1,4 +1,4 @@
-from flask import Flask, send_file, request
+from flask import Flask, send_file, request, render_template
 from werkzeug.utils import secure_filename
 import os
 app = Flask(__name__, static_url_path='/static')
@@ -6,11 +6,19 @@ app = Flask(__name__, static_url_path='/static')
 uploads_dir = os.path.join(app.instance_path, 'uploads')
 
 
+@app.route('/')
+def base_page():
+    return render_template('base.html')
+
+
 @app.route('/transfer')
 def download_wav():
     # upload a .wav file (at endpoint for result)
     # We'll just run the transfer here?
     # Or we could do it once we get both audio files
+
+    # TODO: make sure we can read files on heroku
+    # TODO: have some way of checking if we have both content and style and starting transfer then
 
     transferred_audio = 'static/audio_test.wav'
     return send_file(transferred_audio)
