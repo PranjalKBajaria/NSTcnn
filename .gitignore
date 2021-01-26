@@ -135,4 +135,4 @@ dmypy.json
 instance/*
 
 # hack so we can commit the empty instance folder
-!instance/uploads/.gitkeep
+!instance/uploads/.keep
