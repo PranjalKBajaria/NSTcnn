@@ -4,10 +4,10 @@ Flask==1.1.2
 gunicorn==20.0.4
 itsdangerous==1.1.0
 Jinja2==2.11.2
-MarkupSafe @ file:///tmp/build/80754af9/markupsafe_1607027305082/work
+MarkupSafe==1.1.1
 mkl-fft==1.2.0
 mkl-random==1.0.2
 mkl-service==2.3.0
-numpy @ file:///tmp/build/80754af9/numpy_and_numpy_base_1607448141537/work
+numpy==1.19.2
 six==1.15.0
 Werkzeug==1.0.1
