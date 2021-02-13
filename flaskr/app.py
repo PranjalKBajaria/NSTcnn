@@ -8,7 +8,7 @@ uploads_dir = os.path.join(app.instance_path, 'uploads')
 
 @app.route('/')
 def base_page():
-    return render_template('base.html')
+    return render_template('index.html')
 
 
 @app.route('/transfer')
