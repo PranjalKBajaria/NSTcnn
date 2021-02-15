@@ -36,6 +36,12 @@ header{
     height: 100vh;
 }
 
+/*
+.resources-box {
+   
+}
+*/
+
 .hero-text-box{
     position: absolute;
     width: 1140px;
@@ -55,6 +61,22 @@ h1 {
     word-spacing: 4px;
 }
 
+.desc-text-box{
+    position: relative;
+    width: 1140px;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    font-size: 25px;
+}
+
+.credit-box {
+    position: relative;
+    border-top: 1px solid #e67e22;
+    color: #e67e22;
+    margin-top: 820px;
+}
 /* ===========================================================================================================
 The buttons
 */
@@ -98,5 +120,40 @@ The buttons
 .btn-ghost:hover,
 .btn-ghost:active {
     border: 1px solid #bf6516;
+    color: #fff;
+}
+
+label {
+  border: 1px solid #e67e22;
+  color: #e67e22;
+  padding: 0.5rem;
+  border-radius: 200px;
+  cursor: pointer;
+  margin-top: 1rem;
+  transition: background-color 0.2s, border 0.2s, color 0.2s;    
+}
+
+
+
+label:hover,
+label:active{
+    background-color: #bf6516;
+    color: white;
+}
+
+label:visited{
+    background-color: #fff;
+    color: #e67e22;    
+}
+
+#file-chosen1{
+    margin-left: 0.3rem;
+    margin-right: 30px;
+    color: #fff;
+}
+
+#file-chosen{
+    margin-left: 0.3rem;
+    margin-right: 30px;
     color: #fff;
 }
