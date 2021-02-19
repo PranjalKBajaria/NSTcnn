@@ -30,7 +30,7 @@ The main page/header// Possibly add more later?
 
 
 header{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.76), rgba(0, 0, 0, 0.71)), url(hero.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.76), rgba(0, 0, 0, 0.71)), url({{ url_for('static', filename='/styles/resources/hero.jpg') }});
     background-size: cover;
     background-position: center;
     height: 100vh;
