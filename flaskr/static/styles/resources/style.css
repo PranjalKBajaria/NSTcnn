@@ -30,7 +30,7 @@ The main page/header// Possibly add more later?
 
 
 header{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.76), rgba(0, 0, 0, 0.71)), url(img/hero.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.76), rgba(0, 0, 0, 0.71)), url(hero.jpg);
     background-size: cover;
     background-position: center;
     height: 100vh;
@@ -62,7 +62,7 @@ h1 {
 }
 
 .desc-text-box{
-    position: relative;
+    position: absolute;
     width: 1140px;
     top: 80%;
     left: 50%;
@@ -75,7 +75,7 @@ h1 {
     position: relative;
     border-top: 1px solid #e67e22;
     color: #e67e22;
-    margin-top: 820px;
+    top: 95%;
 }
 /* ===========================================================================================================
 The buttons
