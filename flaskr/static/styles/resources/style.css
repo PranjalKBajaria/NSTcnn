@@ -20,7 +20,7 @@ html {
 .row{
     max-width: 1140px;
     margin: 0 auto;
-
+    
 }
 
 
@@ -30,7 +30,7 @@ The main page/header// Possibly add more later?
 
 
 header{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.76), rgba(0, 0, 0, 0.71)), url('/static/images/hero.jpg');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.76), rgba(0, 0, 0, 0.71)), url(img/hero.jpg);
     background-size: cover;
     background-position: center;
     height: 100vh;
@@ -38,14 +38,14 @@ header{
 
 /*
 .resources-box {
-
+   
 }
 */
 
 .hero-text-box{
     position: absolute;
     width: 1140px;
-    top: 50%;
+    top: 40%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
@@ -84,12 +84,13 @@ The buttons
 .btn:link,
 .btn:visited{
     display: inline-block;
-    padding: 10px 30px;
+    padding: 3px 3px;
     font-weight: 300;
     text-decoration: none;
     border-radius: 200px;
     transition: background-color 0.2s, border 0.2s, color 0.2s;
     margin-right: 20px;
+    margin-top: 10px;
 }
 
 
@@ -130,7 +131,7 @@ label {
   border-radius: 200px;
   cursor: pointer;
   margin-top: 1rem;
-  transition: background-color 0.2s, border 0.2s, color 0.2s;
+  transition: background-color 0.2s, border 0.2s, color 0.2s;    
 }
 
 
@@ -143,7 +144,19 @@ label:active{
 
 label:visited{
     background-color: #fff;
-    color: #e67e22;
+    color: #e67e22;    
+}
+
+a:link {
+  color: #e67e22;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #e67e22;
+  background-color: transparent;
+  text-decoration: underline;
 }
 
 #file-chosen1{
@@ -157,3 +170,5 @@ label:visited{
     margin-right: 30px;
     color: #fff;
 }
+
+
