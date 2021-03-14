@@ -1,70 +1,94 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <link rel="stylesheet" type="text/css"
-              href="{{ url_for('static', filename='styles/vendors/normalize.css') }}">
-        <link rel="stylesheet" type="text/css"
-              href="{{ url_for('static', filename='/styles/vendors/Grid.css')}}">
-        <link rel="stylesheet" type="text/css"
-              href="{{url_for('static', filename='/styles/resources/style.css')}}">
-        <link rel="preconnect" href="https://fonts.gstatic.com">
-        <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;1,300&display=swap"
-              rel="stylesheet">
-        <title>Neural Style Project</title>
-    </head>
+<head>
+    <link rel="stylesheet" type="text/css"
+          href="{{ url_for('static', filename='styles/vendors/normalize.css') }}">
+    <link rel="stylesheet" type="text/css"
+          href="{{ url_for('static', filename='/styles/vendors/Grid.css')}}">
+    <link rel="stylesheet" type="text/css"
+          href="{{url_for('static', filename='/styles/resources/style.css')}}">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;1,300&display=swap"
+          rel="stylesheet">
+    <title>Neural Style Project</title>
+</head>
 
-    <body>
-        <header>
-                <div class="hero-text-box">
-                                <h1>Neural style audio transfer is cool!<br>Check out these samples below.</h1>
-                                <a class="btn btn-full" href="#"><audio controls>
-                                        <source src="../static/styles/audio/rock_country/accompaniment.wav" type="audio/mpeg">
-                                    </audio></a>
-                                <a class="btn btn-full" href="#"><audio controls>
-                                        <source src="../static/styles/audio/rock_country/vocals.wav" type="file/mpeg">
-                                    </audio></a>
-                                <a class="btn btn-full"  href="#"><audio controls>
-                                        <source src="../static/styles/audio/rock_country/output1.wav" type="audio/mpeg">
-                                    </audio></a>
-                                <br>
-                                <a class="btn btn-full" href="#"><audio controls>
-                                        <source src="../static/styles/audio/audio2/accompaniment.wav" type="audio/mpeg">
-                                    </audio></a>
-                                <a class="btn btn-full" href="#"><audio controls>
-                                        <source src="../static/styles/audio/audio2/vocals1.wav" type="audio/mpeg">cool text here
-                                    </audio></a>
-                                <a class="btn btn-full"  href="#"><audio controls>
-                                        <source src="../static/styles/audio/audio2/output2.wav" type="audio/mpeg">
-                                    </audio></a>
-                                <br>
-                                <a class="btn btn-full" href="#"><audio controls>
-                                        <source src="../static/styles/audio/hip_pop/accompaniment.wav" type="audio/mpeg">
-                                    </audio></a>
-                                <a class="btn btn-full" href="#"><audio controls>
-                                        <source src="../static/styles/audio/hip_pop/vocals.wav" type="audio/mpeg">cool text here
-                                    </audio></a>
-                                <a class="btn btn-full"  href="#"><audio controls>
-                                        <source src="../static/styles/audio/hip_pop/output1.wav" type="audio/mpeg">
-                                    </audio></a>
-                            </div>
-                            <div class="desc-text-box">
+<body>
+<header>
+    <div class="hero-text-box">
+        <h1>Neural style audio transfer is cool!<br>Check out these samples below.</h1>
+        <a class="btn btn-full" href="#">
+            <audio controls>
+                <source src="../static/styles/audio/rock_country/accompaniment.wav"
+                        type="audio/mpeg">
+            </audio>
+        </a>
+        <a class="btn btn-full" href="#">
+            <audio controls>
+                <source src="../static/styles/audio/rock_country/vocals.wav" type="audio/mpeg">
+            </audio>
+        </a>
+        <a class="btn btn-full" href="#">
+            <audio controls>
+                <source src="../static/styles/audio/rock_country/output1.wav" type="audio/mpeg">
+            </audio>
+        </a>
+        <br>
+        <a class="btn btn-full" href="#">
+            <audio controls>
+                <source src="../static/styles/audio/audio2/accompaniment.wav" type="audio/mpeg">
+            </audio>
+        </a>
+        <a class="btn btn-full" href="#">
+            <audio controls>
+                <source src="../static/styles/audio/audio2/vocals1.wav" type="audio/mpeg">
+                cool text here
+            </audio>
+        </a>
+        <a class="btn btn-full" href="#">
+            <audio controls>
+                <source src="../static/styles/audio/audio2/output2.wav" type="audio/mpeg">
+            </audio>
+        </a>
+        <br>
+        <a class="btn btn-full" href="#">
+            <audio controls>
+                <source src="../static/styles/audio/hip_pop/accompaniment.wav" type="audio/mpeg">
+            </audio>
+        </a>
+        <a class="btn btn-full" href="#">
+            <audio controls>
+                <source src="../static/styles/audio/hip_pop/vocals.wav" type="audio/mpeg">
+                cool text here
+            </audio>
+        </a>
+        <a class="btn btn-full" href="#">
+            <audio controls>
+                <source src="../static/styles/audio/hip_pop/output1.wav" type="audio/mpeg">
+            </audio>
+        </a>
+    </div>
+    <div class="desc-text-box">
 
-                                <p>
-                                   These samples were generated using a deep learning model, link to which can be found <a href="https://github.com/PranjalKBajaria/NSTcnn" target="_blank">here</a>.<br>
+        <p>
+            These samples were generated using a deep learning model, link to which can be found <a
+                href="https://github.com/PranjalKBajaria/NSTcnn" target="_blank">here</a>.<br>
 
-                                    <br>                    
-                                    In each row, first audio is the style audio, the second audio is the content audio and the third audio is the transformed audio <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank">:)</a>
-                                </p>
+            <br>
+            In each row, first audio is the style audio, the second audio is the content audio and
+            the third audio is the transformed audio <a
+                href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank">:)</a>
+        </p>
 
-                            </div>
+    </div>
 
-                            <div class="credit-box">
-                                Created By - Kenneth Miura, Pranjal Bajaria, Shuvam Das, Thuhin Nandakumar and Mahak Khurmi 
+    <div class="credit-box">
+        Created By - Kenneth Miura, Pranjal Bajaria, Shuvam Das, Thuhin Nandakumar and Mahak Khurmi
 
-                            </div>
+    </div>
 
-        </header>
+</header>
 
-    </body>
+</body>
 
 </html>
