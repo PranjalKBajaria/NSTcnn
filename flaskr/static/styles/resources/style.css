@@ -9,8 +9,8 @@ Setting up the base
 }
 
 html {
-    background-color: #fff;
-    color: #434343;
+    background-color: #AEC5EB;
+    color: #3A405A;
     font-family: 'Lato', 'Arial', sans-serif;
     font-weight: 300;
     font-size: 20px;
@@ -45,7 +45,7 @@ header{
 .hero-text-box{
     position: absolute;
     width: 1140px;
-    top: 50%;
+    top: 20%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
